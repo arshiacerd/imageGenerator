@@ -1,13 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100&family=Cookie&family=Dancing+Script&family=Gentium+Book+Plus:ital@0;1&family=Gulzar&family=Josefin+Sans&family=Kanit&family=Libre+Bodoni:ital@1&family=Lobster&family=Montserrat&family=Mukta&family=Murecho:wght@100&family=Open+Sans:wght@500&family=Pacifico&family=Padauk&family=Parisienne&family=Poppins:wght@500&family=Roboto:wght@300&family=RocknRoll+One&family=Tiro+Tamil&display=swap");
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale; */
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* .btn {
+  background: none;
+  border: 2px solid rgb(7, 164, 7);
+  padding: 6px 12px;
+  border-radius: 4px;
+  color: rgb(3, 95, 3);
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1em;
+  width: 100%;
+} */
+button{
+  cursor: pointer;
 }
