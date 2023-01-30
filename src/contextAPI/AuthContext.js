@@ -12,7 +12,6 @@ const ContextProvier = ({ children }) => {
   const [search, setSearch] = useState("");
   useEffect(() => {
     let users = localStorage.getItem("user");
-
     var localAuth = (JSON.parse(users));
     if (localAuth != null) {
       setUser(localAuth);

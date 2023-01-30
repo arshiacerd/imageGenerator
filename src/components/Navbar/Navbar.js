@@ -34,9 +34,38 @@ const Navbar = () => {
 
   return (
     <>
-      <div className={styles.container}>
-        <nav className={styles.navbar}>
-          
+      {/* <div className={styles.container}> */}
+      <nav className={styles.navbar}>
+        {/* <img src={logo} alt="" />
+        <Link to="/tools">TOOLS</Link>
+        <div className={styles.menu_icon}>
+          <Hamburger
+            direction="right"
+            color="#e45c96"
+            toggled={isOpen}
+            toggle={handleToggle}
+          />
+        </div> */}
+      
+          {/* <ul>
+              {!auth && (
+                <>
+                  <li>
+                    <Link to="/signup">SIGNUP</Link>
+                  </li>
+                  <li>
+                    <Link to="/login">LOGIN</Link>
+                  </li>
+                </>
+              )}
+              {auth && (
+                <li>
+                  <Link to="/login" onClick={logout}>
+                    LOGOUT
+                  </Link>
+                </li>
+              )}
+            </ul> */}
           <ul>
             <div className={styles.first}>
               <li>
@@ -89,8 +118,9 @@ const Navbar = () => {
               )}
             </div>
           </ul>
-        </nav>
-      </div>
+        
+      </nav>
+      {/* </div> */}
     </>
   );
 };

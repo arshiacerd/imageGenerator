@@ -2,24 +2,25 @@ import React, { useState, useEffect } from "react";
 import { useAuth } from "../../hooks/useAuth";
 import styles from "./Tools.module.css";
 import { useFetch } from "../../hooks/useFetch";
-
+import AItools from "../../data/AItools.json";
 import { Link } from "react-router-dom";
 
 import Card from "./Card";
 import ToolNavbar from "./ToolNavbar";
 const Tools = () => {
+  console.log("AItools", AItools);
   const { search } = useAuth();
   const [toolsData, setToolsData] = useState([]);
 
   // console.log("user", user);
-  const {
-    data: tools,
-    isPending,
-    error,
-  } = useFetch("http://localhost:3000/data");
+  // const {
+  //   data: tools,
+  //   isPending,
+  //   error,
+  // } = useFetch("http://localhost:3000/data");
   useEffect(() => {
-    if (tools) {
-      setToolsData(tools);
+    if (AItools) {
+      setToolsData(AItools.data);
     }
     if (search.length > 0) {
       // const str = search.charAt(0).toUpperCase() + search.slice(1);
@@ -32,9 +33,9 @@ const Tools = () => {
       });
       setToolsData(getData);
     } else if (search.length == 0) {
-      setToolsData(tools);
+      setToolsData(AItools.data);
     }
-  }, [tools, search]);
+  }, [AItools, search]);
 
   // console.log("tools", tools);
   return (

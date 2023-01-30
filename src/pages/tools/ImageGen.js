@@ -40,9 +40,9 @@ const ImageGen = ({ tools }) => {
     // }
   }, [auth, tools]);
 
-  const removeImage=()=>{
+  const removeImage = () => {
     localStorage.removeItem("images");
-  }
+  };
   const handleNumber = (e) => {
     const value = Math.max(min, Math.min(max, Number(e.target.value)));
     console.log("value", value);
@@ -78,7 +78,7 @@ const ImageGen = ({ tools }) => {
 
       if (jsonData.success) {
         localStorage.setItem("images", JSON.stringify(jsonData.data));
-      
+
         setImage(jsonData);
         setIsPending(false);
       } else {
@@ -147,7 +147,6 @@ const ImageGen = ({ tools }) => {
                     )}
                   </label>
                 ))}
-               
               </form>
               <div className={styles.btm}>
                 <button className={styles.btm1} onClick={ClearFields}>
@@ -188,7 +187,6 @@ const ImageGen = ({ tools }) => {
                       </div>
                     )
                   )}
-               
 
                 {isPending && (
                   <>

@@ -5,13 +5,12 @@ import { Link, useNavigate } from "react-router-dom";
 const Card = ({ img, title, status, subtitle, route, id }) => {
   const navigate = useNavigate();
   const handleClick = (id, route) => {
-    // console.log(id, route);
+    console.log("sadsa", img, title, status, subtitle, route, id);
+
     navigate(`/tools/${route}`, { state: { id: id } });
   };
   return (
     <>
-
-    
       <div className={styles.card}>
         <div className={styles.card_img}>
           <img src={img} alt="" />

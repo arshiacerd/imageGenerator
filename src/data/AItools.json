@@ -1,0 +1,338 @@
+{
+  "data":
+  [
+    {
+      "id": 1,
+  
+      "name": "Hey INK",
+  
+      "subtitle": "Quickly access all of our INK tools from a single interface!",
+  
+      "sampleOutputText": "Hey INK",
+  
+      "route": "hey-ink",
+  
+      "apiRoute": "command-ink",
+  
+      "img": "../../assets/AIexpand.png",
+  
+      "textInputs": [
+        {
+          "name": "Ask INK",
+  
+          "key": "ask-ink",
+  
+          "placeholder": "Write sales copy about threadmills",
+  
+          "showTextArea": false,
+  
+          "maxLimit": 100,
+  
+          "minLimit": 3
+        },
+  
+        {
+          "name": "Provide some context",
+  
+          "key": "provide_some_context",
+  
+          "placeholder": "Enter additional information here...",
+  
+          "showTextArea": true,
+  
+          "maxLimit": 400,
+  
+          "minLimit": 0
+        },
+  
+        {
+          "name": "Tone of Voice",
+  
+          "key": "tone_of_voice",
+  
+          "placeholder": "",
+  
+          "showTextArea": false,
+  
+          "maxLimit": 80,
+  
+          "minLimit": 0
+        },
+  
+        {
+          "name": "Output Language",
+  
+          "key": "output_language",
+  
+          "placeholder": "",
+  
+          "showTextArea": false,
+  
+          "maxLimit": 80,
+  
+          "minLimit": 0
+        }
+      ],
+  
+      "status": "Coming Soon"
+    },
+  
+    {
+      "id": 2,
+  
+      "name": "AI Image Generator",
+  
+      "componenet": "<nn/>",
+  
+      "subtitle": "Create any image or art in seconds with the INK Image Generation AI. \n Subject to the INK <a href='https://inkforall.com/terms/' class='text-blue-400' target='_blank'> Terms & Conditions </a>",
+  
+      "sampleOutputText": "See your INK Images appear here after you answer the questions on the left.",
+  
+      "route": "image-generator",
+  
+      "apiRoute": "imagery-generate",
+  
+      "img": "../../assets/AIgenerator.png",
+  
+      "textInputs": [
+        {
+          "name": "Prompt",
+  
+          "key": "prompt",
+  
+          "type": "textarea",
+  
+          "placeholder": "winter city, village, winter, night, snowfall, darkness, bright lights, soft lights, highly detailed, intricate, elaborate, Studio Ghibli",
+  
+          "maxLimit": 400,
+  
+          "minLimit": 3
+        },
+  
+        {
+          "name": "Size",
+  
+          "key": "size",
+  
+          "type": "option",
+  
+          "placeholder": "small",
+  
+          "maxLimit": 400,
+  
+          "minLimit": 0
+        },
+  
+        {
+          "name": "Number",
+  
+          "key": "number",
+  
+          "type": "number",
+  
+          "placeholder": "1",
+  
+          "maxLimit": 400,
+  
+          "minLimit": 0
+        }
+      ],
+  
+      "status": "NEW!"
+    },
+  
+    {
+      "id": 3,
+  
+      "componenet": "<nn/>",
+  
+      "name": "Facebook Primary Text Generator",
+  
+      "subtitle": "INK automatically generated Facebook copy for you. Epic.",
+  
+      "sampleOutputText": "Facebook Primary Text Generator",
+  
+      "route": "facebook-primary-text-generator",
+  
+      "apiRoute": "facebook-primary-text-generator",
+  
+      "img": "../../assets/formatGen.png",
+  
+      "textInputs": [
+        {
+          "name": "Prompt",
+  
+          "key": "prompt",
+  
+          "type": "textarea",
+  
+          "placeholder": "winter city, village, winter, night, snowfall, darkness, bright lights, soft lights, highly detailed, intricate, elaborate, Studio Ghibli",
+  
+          "maxLimit": 400,
+  
+          "minLimit": 3
+        },
+  
+        {
+          "name": "Size",
+  
+          "key": "size",
+  
+          "type": "option",
+  
+          "placeholder": "small",
+  
+          "maxLimit": 400,
+  
+          "minLimit": 0
+        },
+  
+        {
+          "name": "Number",
+  
+          "key": "number",
+  
+          "type": "text",
+  
+          "placeholder": "1",
+  
+          "maxLimit": 400,
+  
+          "minLimit": 0
+        }
+      ],
+  
+      "status": "Coming Soon"
+    },
+  
+    {
+      "id": 4,
+  
+      "componenet": "<nn/>",
+  
+      "name": "Bullet Text",
+  
+      "subtitle": "Bullet points in your social post are your secret warriors against skimmers and attention deficit.",
+  
+      "sampleOutputText": "Bullet Text",
+  
+      "route": "bullet-text",
+  
+      "apiRoute": "bullet-text",
+  
+      "img": "../../assets/paraGen.png",
+  
+      "textInputs": [
+        {
+          "name": "Prompt",
+  
+          "key": "prompt",
+  
+          "type": "textarea",
+  
+          "placeholder": "winter city, village, winter, night, snowfall, darkness, bright lights, soft lights, highly detailed, intricate, elaborate, Studio Ghibli",
+  
+          "maxLimit": 400,
+  
+          "minLimit": 3
+        },
+  
+        {
+          "name": "Size",
+  
+          "key": "size",
+  
+          "type": "option",
+  
+          "placeholder": "small",
+  
+          "maxLimit": 400,
+  
+          "minLimit": 0
+        },
+  
+        {
+          "name": "Number",
+  
+          "key": "number",
+  
+          "type": "text",
+  
+          "placeholder": "1",
+  
+          "maxLimit": 400,
+  
+          "minLimit": 0
+        }
+      ],
+  
+      "status": "Coming Soon"
+    },
+  
+    {
+      "id": 5,
+  
+      "componenet": "<nn/>",
+  
+      "name": "Call to Action",
+  
+      "subtitle": "Include call to actions in your content: short, powerful messages to get your audience to take action.",
+  
+      "sampleOutputText": "Call to Action",
+  
+      "route": "call-to-action",
+  
+      "apiRoute": "call-to-action",
+  
+      "img": "../../assets/subheadGen.png",
+  
+      "textInputs": [
+        {
+          "name": "Prompt",
+  
+          "key": "prompt",
+  
+          "type": "textarea",
+  
+          "placeholder": "winter city, village, winter, night, snowfall, darkness, bright lights, soft lights, highly detailed, intricate, elaborate, Studio Ghibli",
+  
+          "maxLimit": 400,
+  
+          "minLimit": 3
+        },
+  
+        {
+          "name": "Size",
+  
+          "key": "size",
+  
+          "type": "option",
+  
+          "placeholder": "small",
+  
+          "maxLimit": 400,
+  
+          "minLimit": 0
+        },
+  
+        {
+          "name": "Number",
+  
+          "key": "number",
+  
+          "type": "text",
+  
+          "placeholder": "1",
+  
+          "maxLimit": 400,
+  
+          "minLimit": 0
+        }
+      ],
+  
+      "status": "Coming Soon"
+    }
+  ]
+  
+  
+}
